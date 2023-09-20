@@ -1,0 +1,14 @@
+{
+  "name": "bun",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "serve": "bun run --watch ./server/db/pet.routes.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
