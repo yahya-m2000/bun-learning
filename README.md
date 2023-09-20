@@ -1,16 +1,19 @@
-# bun
+# bun-learning!
 
-To install dependencies:
+To install dependencies & react:
 
 ```bash
+bun install
+cd client
 bun install
 ```
 
 To run:
 
 ```bash
-bun run index.ts
-```
+# Server
+bun server
 
-This project was created using `bun init` in bun v1.0.2. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
-# GitInit
+# Client
+bun start
+```

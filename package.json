@@ -3,7 +3,8 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "serve": "bun run --watch ./server/db/pet.routes.ts"
+    "server": "bun run --watch ./server/db/pet.routes.ts",
+    "start": ""
   },
   "devDependencies": {
     "bun-types": "latest"

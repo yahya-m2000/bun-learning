@@ -19,6 +19,7 @@ function App() {
       {data.map((item, i) => {
         return <p>{item.type}</p>;
       })}
+      <p>Test</p>
     </div>
   );
 }
